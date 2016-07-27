@@ -50,7 +50,7 @@ var app = {
 
 $(function (){
   function cameraSuccess(imagedata){
-    $(".file").attr("src",imagedata)
+    $(".file").attr("value",imagedata)
     alert(imagedata)
   }
 

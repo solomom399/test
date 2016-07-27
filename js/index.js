@@ -50,7 +50,7 @@ var app = {
 
 $(function (){
   function cameraSuccess(imagedata){
-    $("input type=[file]").val(imagedata)
+    $("input [type=file]").val(imagedata)
     alert(imagedata)
   }
 

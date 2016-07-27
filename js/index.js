@@ -51,6 +51,7 @@ var app = {
 $(function (){
   function cameraSuccess(imagedata){
     $(".file").val(imagedata)
+    alert(imagedata)
   }
 
   function cameraError(error){
